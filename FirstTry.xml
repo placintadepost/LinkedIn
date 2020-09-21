@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Desktop Web Suite" parallel="tests" thread-count="1">
+    <parameter name="browserName" value="chrome"/>
+
+    <test name="Test_MainPage">
+        <classes>
+            <class name="Tests.test_MainPage"/>
+        </classes>
+    </test>
+
+</suite>
